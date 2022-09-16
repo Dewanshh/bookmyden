@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "22604539549",
+    "project_id": "bookmyden-b3a51",
+    "storage_bucket": "bookmyden-b3a51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22604539549:android:162983b7590807848f1674",
+        "android_client_info": {
+          "package_name": "com.example.bookmyden_uapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22604539549-ch148frqp0i8eh9jp7ctqoiof3nfbvdh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookmyden_uapp",
+            "certificate_hash": "703a05b7c718baa7d9eae042c51df4652fefd81e"
+          }
+        },
+        {
+          "client_id": "22604539549-87uouscar2rhfqp2ma5kgs6ps5is4hkj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeA3oJrf965JKOA-ceAesOpm5fhczpvKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22604539549-87uouscar2rhfqp2ma5kgs6ps5is4hkj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

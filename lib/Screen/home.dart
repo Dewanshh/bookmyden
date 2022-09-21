@@ -9,6 +9,7 @@ import 'package:flutter/widgets.dart';
 
 import '../Home_Screen/Recently_Book.dart';
 import '../Home_Screen/banner.dart';
+import '../Misc/Recco.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -147,12 +148,20 @@ class _HomeScreenState extends State<HomeScreen> {
                                     color: Colors.black,
                                     fontWeight: FontWeight.bold,
                                     fontSize: 20)),
-                            Text(
-                              "See All",
-                              style: TextStyle(
-                                  color: Colors.green,
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 20),
+                            InkWell(
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => Recco()));
+                              },
+                              child: Text(
+                                "See All",
+                                style: TextStyle(
+                                    color: Colors.green,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 20),
+                              ),
                             ),
                           ],
                         ),

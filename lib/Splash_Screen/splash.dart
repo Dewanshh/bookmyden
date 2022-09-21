@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:bookmyden_uapp/Home_Screen/home.dart';
-import 'package:bookmyden_uapp/homepage.dart';
+import 'package:bookmyden_uapp/Screen/home.dart';
+import 'package:bookmyden_uapp/Screen/homepage.dart';
 import 'package:bookmyden_uapp/main.dart';
-import 'package:bookmyden_uapp/signin.dart';
+import 'package:bookmyden_uapp/Login/signin.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

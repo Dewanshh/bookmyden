@@ -1,5 +1,5 @@
-import 'package:bookmyden_uapp/homepage.dart';
-import 'package:bookmyden_uapp/splash.dart';
+import 'package:bookmyden_uapp/Screen/homepage.dart';
+import 'package:bookmyden_uapp/Splash_Screen/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';

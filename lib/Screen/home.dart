@@ -7,8 +7,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import 'Recently_Book.dart';
-import 'banner.dart';
+import '../Home_Screen/Recently_Book.dart';
+import '../Home_Screen/banner.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

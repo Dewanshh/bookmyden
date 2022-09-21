@@ -6,7 +6,7 @@ import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'Booking.dart';
 import 'Profile.dart';
 import 'Search.dart';
-import 'home.dart';
+import 'Home_Screen/home.dart';
 
 class HomePages extends StatefulWidget {
   const HomePages({Key? key}) : super(key: key);
